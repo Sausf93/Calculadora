@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: es.formacion.cip.interfaces.OperacionesIT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+testMultiplicar(es.formacion.cip.interfaces.OperacionesIT)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: es/formacion/cip/interfaces/Operaciones
+	at es.formacion.cip.interfaces.OperacionesIT.testMultiplicar(OperacionesIT.java:71)
+Caused by: java.lang.ClassNotFoundException: es.formacion.cip.interfaces.Operaciones
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 more
+
+testSuma(es.formacion.cip.interfaces.OperacionesIT)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: es/formacion/cip/interfaces/Operaciones
+	at es.formacion.cip.interfaces.OperacionesIT.testSuma(OperacionesIT.java:29)
+
+testDividir(es.formacion.cip.interfaces.OperacionesIT)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: es/formacion/cip/interfaces/Operaciones
+	at es.formacion.cip.interfaces.OperacionesIT.testDividir(OperacionesIT.java:43)
+
+testRestar(es.formacion.cip.interfaces.OperacionesIT)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: es/formacion/cip/interfaces/Operaciones
+	at es.formacion.cip.interfaces.OperacionesIT.testRestar(OperacionesIT.java:57)
+
